@@ -110,7 +110,7 @@ def app():
         
         st.plotly_chart(px.histogram(
     df,
-    x='Type of goal',
+    x='Type',
     title="Goals per Type",
     log_x=False,
     log_y=False,
